@@ -13,9 +13,9 @@ function App() {
       <Headnav />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/" element={<Study />} />
-          <Route path="/" element={<Project />} />
+          <Route path="/blog" element={<Main />} />
+          <Route path="/study" element={<Study />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </div>
