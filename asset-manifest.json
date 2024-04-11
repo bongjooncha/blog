@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.bd70edb1.css",
-    "main.js": "/blog/static/js/main.24ca601f.js",
+    "main.css": "/blog/static/css/main.92990e45.css",
+    "main.js": "/blog/static/js/main.db724ac6.js",
     "static/js/453.80efc53e.chunk.js": "/blog/static/js/453.80efc53e.chunk.js",
+    "static/media/rein_book.png": "/blog/static/media/rein_book.35aa6bd4bd07e7df9666.png",
     "index.html": "/blog/index.html",
-    "main.bd70edb1.css.map": "/blog/static/css/main.bd70edb1.css.map",
-    "main.24ca601f.js.map": "/blog/static/js/main.24ca601f.js.map",
+    "main.92990e45.css.map": "/blog/static/css/main.92990e45.css.map",
+    "main.db724ac6.js.map": "/blog/static/js/main.db724ac6.js.map",
     "453.80efc53e.chunk.js.map": "/blog/static/js/453.80efc53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd70edb1.css",
-    "static/js/main.24ca601f.js"
+    "static/css/main.92990e45.css",
+    "static/js/main.db724ac6.js"
   ]
 }
