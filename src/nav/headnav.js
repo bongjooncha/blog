@@ -18,8 +18,8 @@ function Headnav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/blog">Home</Nav.Link>
-            <Nav.Link href="/blog/study">Study</Nav.Link>
-            <Nav.Link href="/blog/project">Project</Nav.Link>
+            <Nav.Link href="/blog/#/study">Study</Nav.Link>
+            <Nav.Link href="/blog/#/project">Project</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

@@ -1,0 +1,41 @@
+/* 변수 */
+:root {
+  --margin-side: 20vw;
+}
+
+/* 메인 페이지 크기 */
+.main {
+  text-align: left;
+  margin: 10vh var(--margin-side);
+  color: white;
+  min-height: 100vh;
+}
+
+/* 제목 */
+h1 {
+  margin-left: 1vw;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* 위에 작성되는 참조 */
+.top_ref {
+  color: rgb(249, 176, 176);
+  font-weight: 700;
+  font-style: italic;
+  position: absolute; /* 절대 위치 지정 */
+  right: var(--margin-side);
+}
+
+/* 콘텐츠 */
+.contents {
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.contents h2 {
+  margin: 40px 0;
+  margin-left: 1vw;
+  font-weight: 700;
+  font-style: italic;
+}
