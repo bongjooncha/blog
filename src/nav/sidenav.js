@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import "./nav.css";
 
 function Sidenav() {
-  return <></>;
+  return <div className="side_nav"></div>;
 }
 
 export default Sidenav;

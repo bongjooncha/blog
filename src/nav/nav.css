@@ -1,9 +1,11 @@
+/* top nav */
 .top_nav {
   height: 8vh;
   background-color: rgb(223, 223, 223);
   --bs-bg-opacity: 1;
   font-weight: 700;
   font-style: italic;
+  z-index: 2;
 }
 
 .top_nav .container {
@@ -19,4 +21,13 @@
 .top_nav .container .navbar-collapse a {
   font-size: 2vh;
   margin: 0 0.9vw;
+}
+
+/* side nav */
+.side_nav {
+  min-height: 100vh;
+  width: 15vw;
+  background-color: aliceblue;
+  position: fixed;
+  top: -0vh;
 }
