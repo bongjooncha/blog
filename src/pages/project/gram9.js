@@ -1,7 +1,7 @@
 import { React } from "react";
 
-function Study() {
+function Gram9() {
   return <div className="main_home"></div>;
 }
 
-export default Study;
+export default Gram9;

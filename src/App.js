@@ -6,7 +6,10 @@ import Headnav from "./nav/headnav";
 import Main from "./pages/main";
 import Study from "./pages/study";
 import Project from "./pages/project";
+// study
 import Reinforce from "./pages/study/reinforcement";
+// project
+import Gram9 from "./pages/project/gram9";
 
 function App() {
   return (
@@ -19,7 +22,11 @@ function App() {
           <Route path="/study" element={<Study />} />
           <Route path="/project" element={<Project />} />
 
+          {/* study */}
           <Route path="/study/강화학습" element={<Reinforce />} />
+
+          {/* project */}
+          <Route path="/project/9gram" element={<Gram9 />} />
         </Routes>
       </HashRouter>
     </div>

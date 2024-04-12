@@ -2,7 +2,7 @@ import { React } from "react";
 
 function Reinforce() {
   return (
-    <div className="main">
+    <div className="main_con">
       <h1>심층강화학습 (ch1. 강화학습의 개요)</h1>
       <d className="top_ref">본 글은 "심층강화학습"을 토대로 작성된 글이다.</d>
       <br />

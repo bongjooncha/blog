@@ -3,8 +3,27 @@
   --margin-side: 20vw;
 }
 
-/* 메인 페이지 크기 */
-.main {
+/* 메인 홈 */
+.main_home {
+  margin: 10vh 10vw;
+  color: white;
+  text-align: left;
+}
+
+.main_home h1 {
+  margin: 5vh 0;
+}
+
+.main_home .con_card {
+  display: flex;
+}
+
+.main_home .con_card .card {
+  margin-right: 5vw;
+}
+
+/* 메인 글 페이지 크기 */
+.main_con {
   text-align: left;
   margin: 10vh var(--margin-side);
   color: white;
