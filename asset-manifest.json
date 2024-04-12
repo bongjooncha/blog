@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.92990e45.css",
-    "main.js": "/blog/static/js/main.db724ac6.js",
+    "main.css": "/blog/static/css/main.2f632e72.css",
+    "main.js": "/blog/static/js/main.f74d2634.js",
     "static/js/453.80efc53e.chunk.js": "/blog/static/js/453.80efc53e.chunk.js",
     "static/media/rein_book.png": "/blog/static/media/rein_book.35aa6bd4bd07e7df9666.png",
+    "static/media/smartfarm.png": "/blog/static/media/smartfarm.52237d800c45ff36f3a5.png",
+    "static/media/9gram.JPG": "/blog/static/media/9gram.b2d6834e25bdfbf87ee8.JPG",
     "index.html": "/blog/index.html",
-    "main.92990e45.css.map": "/blog/static/css/main.92990e45.css.map",
-    "main.db724ac6.js.map": "/blog/static/js/main.db724ac6.js.map",
+    "main.2f632e72.css.map": "/blog/static/css/main.2f632e72.css.map",
+    "main.f74d2634.js.map": "/blog/static/js/main.f74d2634.js.map",
     "453.80efc53e.chunk.js.map": "/blog/static/js/453.80efc53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92990e45.css",
-    "static/js/main.db724ac6.js"
+    "static/css/main.2f632e72.css",
+    "static/js/main.f74d2634.js"
   ]
 }
