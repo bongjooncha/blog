@@ -30,9 +30,23 @@
   min-height: 100vh;
 }
 
+.card {
+  width: 20rem;
+}
+
+.card .card-img-top {
+  height: 20rem;
+  width: 17rem;
+  display: block;
+  margin: auto;
+}
+.card .card-body {
+  align-items: end;
+}
+
 /* 제목 */
 h1 {
-  margin-left: 1vw;
+  margin-left: 2vw;
   font-style: italic;
   font-weight: 600;
 }
@@ -53,8 +67,28 @@ h1 {
 }
 
 .contents h2 {
-  margin: 40px 0;
-  margin-left: 1vw;
+  margin: 1em 0vw 0.7em 0.8em;
   font-weight: 700;
   font-style: italic;
+}
+
+.contents strong {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.contents .red_strong {
+  color: rgb(255, 112, 112);
+  font-style: italic;
+  font-size: 24px;
+}
+
+.contents .blue_strong {
+  color: rgb(183, 191, 255);
+  font-style: italic;
+  font-size: 24px;
+}
+
+.contents .center_strong_div {
+  text-align: center;
 }

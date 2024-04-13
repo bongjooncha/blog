@@ -7,7 +7,7 @@ import Main from "./pages/main";
 import Study from "./pages/study";
 import Project from "./pages/project";
 // study
-import Reinforce from "./pages/study/reinforcement";
+import Reinforce from "./pages/study/reinforce/reinforcement";
 // project
 import Gram9 from "./pages/project/gram9";
 

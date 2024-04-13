@@ -8,7 +8,7 @@ import gram9 from "../../../img/project/9gram/9gram.JPG";
 function Gram9_Card() {
   return (
     <>
-      <Card style={{ width: "20rem" }}>
+      <Card>
         <Card.Img variant="top" src={gram9} />
         <Card.Body>
           <Card.Title>Gram9</Card.Title>
