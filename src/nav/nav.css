@@ -27,7 +27,31 @@
 .side_nav {
   min-height: 100vh;
   width: 15vw;
-  background-color: aliceblue;
+  background-color: #4b5161;
   position: fixed;
+  color: white;
   top: -0vh;
+  padding-top: 10vh;
+  padding-left: 1vw;
+  text-align: left;
+}
+
+.side_1 {
+  font-size: 1.5vw;
+  margin: 0;
+}
+.side_2 {
+  font-size: 1.2vw;
+  padding-left: 1em;
+  margin: 0;
+}
+.side_3 {
+  font-size: 0.9vw;
+  padding-left: 2em;
+  margin: 0;
+}
+.side_4 {
+  font-size: 0.6vw;
+  padding-left: 2em;
+  margin: 0;
 }
