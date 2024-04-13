@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.2f632e72.css",
-    "main.js": "/blog/static/js/main.f74d2634.js",
+    "main.css": "/blog/static/css/main.3ed38fc9.css",
+    "main.js": "/blog/static/js/main.90b5cb42.js",
     "static/js/453.80efc53e.chunk.js": "/blog/static/js/453.80efc53e.chunk.js",
     "static/media/rein_book.png": "/blog/static/media/rein_book.35aa6bd4bd07e7df9666.png",
+    "static/media/1_5.png": "/blog/static/media/1_5.0bffbeed3ecdde5e92cb.png",
     "static/media/smartfarm.png": "/blog/static/media/smartfarm.52237d800c45ff36f3a5.png",
+    "static/media/1_1.png": "/blog/static/media/1_1.a955ecdd46fb0960a2e4.png",
+    "static/media/1_4.png": "/blog/static/media/1_4.d666828240ba4c2f1725.png",
+    "static/media/coin.png": "/blog/static/media/coin.72a7497f230a0926cf51.png",
+    "static/media/asset.png": "/blog/static/media/asset.01f26add48562eedd1fc.png",
+    "static/media/1_7.png": "/blog/static/media/1_7.94b4e2270f728ef951e8.png",
+    "static/media/1_6.png": "/blog/static/media/1_6.a4964ad69b0171d72936.png",
     "static/media/9gram.JPG": "/blog/static/media/9gram.b2d6834e25bdfbf87ee8.JPG",
+    "static/media/1_3.png": "/blog/static/media/1_3.3c4abed19e42fada891a.png",
     "index.html": "/blog/index.html",
-    "main.2f632e72.css.map": "/blog/static/css/main.2f632e72.css.map",
-    "main.f74d2634.js.map": "/blog/static/js/main.f74d2634.js.map",
+    "main.3ed38fc9.css.map": "/blog/static/css/main.3ed38fc9.css.map",
+    "main.90b5cb42.js.map": "/blog/static/js/main.90b5cb42.js.map",
     "453.80efc53e.chunk.js.map": "/blog/static/js/453.80efc53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f632e72.css",
-    "static/js/main.f74d2634.js"
+    "static/css/main.3ed38fc9.css",
+    "static/js/main.90b5cb42.js"
   ]
 }
