@@ -36,6 +36,11 @@
   text-align: left;
 }
 
+.side_nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .side_main_title {
   margin: 0 0 5vh -2vw;
   text-align: center;
@@ -70,8 +75,16 @@
 .title3 {
   /* margin-left: 2vw; */
 }
+.title3 a:hover {
+  color: rgb(182, 184, 244);
+}
+
 .title4 {
   margin-left: 0vw;
+}
+
+.title4 a:hover {
+  color: rgb(182, 244, 194);
 }
 
 .title3 button {

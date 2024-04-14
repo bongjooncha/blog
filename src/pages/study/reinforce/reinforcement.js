@@ -1,12 +1,12 @@
 import { React } from "react";
-import Sidenav from "../../../nav/sidenav";
+import StudySidenav from "../../../nav/study/study_sidenav";
 import ReinforceCh1 from "./reinCh1";
 import ReinforceCh2 from "./reinCh2";
 
 function Reinforce() {
   return (
     <>
-      <Sidenav />
+      <StudySidenav />
       <ReinforceCh1 />
       <br />
       <ReinforceCh2 />

@@ -12,7 +12,7 @@ function ReinforceCh1() {
   return (
     <>
       <div className="main_con">
-        <h1>Ch1. 강화학습의 개요</h1>
+        <h1 id="ch1">Ch1. 강화학습의 개요</h1>
         <p className="top_ref">
           본 글은 "심층강화학습"을 토대로 작성된 글이다.
         </p>

@@ -16,6 +16,7 @@
 
 .main_home .con_card {
   display: flex;
+  width: 100%;
 }
 
 .main_home .con_card .card {
@@ -32,6 +33,7 @@
 
 .card {
   width: 20rem;
+  height: 30rem;
 }
 
 .card .card-img-top {

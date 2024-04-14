@@ -12,7 +12,7 @@ function ReinforceCh2() {
   return (
     <>
       <div className="main_con">
-        <h1>Ch2. 마르코프 결정 프로세스</h1>
+        <h1 id="ch2">Ch2. 마르코프 결정 프로세스</h1>
         <p className="top_ref">
           본 글은 "심층강화학습"을 토대로 작성된 글이다.
         </p>

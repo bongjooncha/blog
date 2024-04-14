@@ -8,6 +8,7 @@ import Study from "./pages/study";
 import Project from "./pages/project";
 // study
 import Reinforce from "./pages/study/reinforce/reinforcement";
+import Yolov8 from "./pages/study/yolov8/yolo";
 // project
 import Gram9 from "./pages/project/gram9";
 
@@ -24,6 +25,7 @@ function App() {
 
           {/* study */}
           <Route path="/study/강화학습" element={<Reinforce />} />
+          <Route path="/study/yolov8" element={<Yolov8 />} />
 
           {/* project */}
           <Route path="/project/9gram" element={<Gram9 />} />
