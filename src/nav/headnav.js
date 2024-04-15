@@ -1,38 +1,55 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
 
 import "./nav.css";
 
+import GitButton from "../img/else/github.png";
+import NaverButton from "../img/else/naver.png";
+
 function Headnav() {
   return (
-    <Navbar expand="lg" className="top_nav">
-      <Container>
-        <Navbar.Brand className="main_tag" href="/blog">
-          BJ's tech blog
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/blog">Home</Nav.Link>
-            <Nav.Link href="/blog/#/project">Project</Nav.Link>
-            <Nav.Link href="/blog/#/study">Study</Nav.Link>
-          </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <>
+      <Navbar expand="lg" className="top_nav">
+        <Container>
+          <Navbar.Brand className="main_tag" href="/blog">
+            BJ's tech blog
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/blog">Home</Nav.Link>
+              <Nav.Link href="/blog/#/project">Project</Nav.Link>
+              <Nav.Link href="/blog/#/study">Study</Nav.Link>
+            </Nav>
+            <div className="head_right">
+              <a href="https://github.com/bongjooncha">
+                <img src={GitButton} />
+              </a>
+              <a href="https://blog.naver.com/bongjooncha">
+                <img src={NaverButton} />
+              </a>
+            </div>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <div className="remote_button">
+        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          top
+        </button>
+        <button
+          onClick={() =>
+            window.scrollTo({
+              top: document.documentElement.scrollHeight,
+              behavior: "smooth",
+            })
+          }
+        >
+          bottom
+        </button>
+      </div>
+    </>
   );
 }
 

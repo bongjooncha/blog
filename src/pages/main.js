@@ -14,6 +14,7 @@ import ReinCard from "./card/study/reinforce_card";
 function Main() {
   return (
     <div className="main_home">
+      <p>현재는 심층강화학습을 제외한 페이지는 업로드 되지 않았습니다.</p>
       <h1>Projects</h1>
       <div className="con_card">
         <Gram9Card />

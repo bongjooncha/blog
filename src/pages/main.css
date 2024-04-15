@@ -1,6 +1,7 @@
 /* 변수 */
 :root {
-  --margin-side: 22.5vw;
+  --margin-left-side: 20.5vw;
+  --margin-right-side: 10vw;
 }
 
 /* 메인 홈 */
@@ -26,7 +27,7 @@
 /* 메인 글 페이지 크기 */
 .main_con {
   text-align: left;
-  margin: 10vh var(--margin-side);
+  margin: 10vh var(--margin-right-side) 10vh var(--margin-left-side);
   color: white;
   min-height: 100vh;
 }
@@ -59,7 +60,7 @@ h1 {
   font-weight: 700;
   font-style: italic;
   position: absolute; /* 절대 위치 지정 */
-  right: var(--margin-side);
+  right: var(--margin-right-side);
 }
 
 /* 콘텐츠 */

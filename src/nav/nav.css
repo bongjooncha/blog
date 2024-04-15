@@ -1,3 +1,21 @@
+/* remote button */
+.remote_button {
+  position: fixed;
+  display: flex;
+  flex-direction: column; /* 세로로 정렬 */
+  right: 3em;
+  bottom: 3em;
+  z-index: 100;
+}
+.remote_button button {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  font-size: 1em;
+  margin-top: 1em;
+  opacity: 0.8;
+}
+
 /* top nav */
 .top_nav {
   height: 8vh;
@@ -16,6 +34,13 @@
 .top_nav .main_tag {
   font-size: 2.7vh;
   margin-right: 5vh;
+}
+.top_nav .head_right {
+  margin-right: -4vw;
+}
+
+.top_nav .head_right img {
+  height: 4vh;
 }
 
 .top_nav .container .navbar-collapse a {

@@ -12,8 +12,8 @@ function Rein_Card() {
       <Card>
         <Card.Img variant="top" src={rein_book} />
         <Card.Body>
-          <Card.Title>강화학습</Card.Title>
-          <Card.Text>심층강화학습을 토대로 공부한 글</Card.Text>
+          <Card.Title>심층강화학습</Card.Title>
+          <Card.Text>책 심층강화학습을 정리한 글</Card.Text>
           <Link to="/study/강화학습">
             <Button variant="primary">글 읽기</Button>
           </Link>
