@@ -4,12 +4,13 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
 // 이미지
+import optimizer from "../../../../img/study/optimizer/optimizer.png";
 
 function Optimizer() {
   return (
     <>
       <Card>
-        <Card.Img variant="top" />
+        <Card.Img variant="top" src={optimizer} style={{ width: "100%" }} />
         <Card.Body>
           <Card.Title>Optimizer</Card.Title>
           <Card.Text>

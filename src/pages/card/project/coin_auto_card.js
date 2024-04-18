@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import Coin from "../../../img/project/coin/coin.png";
 
-function CoinAuto() {
+function CoinAutoCard() {
   return (
     <>
       <Card>
@@ -22,4 +22,4 @@ function CoinAuto() {
   );
 }
 
-export default CoinAuto;
+export default CoinAutoCard;

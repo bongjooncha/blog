@@ -1,8 +1,10 @@
 import { React } from "react";
 
-import ReinCard from "./card/study/reinforce_card";
-import Yolo from "./card/study/yolo";
-import Optimizer from "./card/study/optimizer";
+import ReinCard from "./card/study/AI/reinforce_card";
+import Yolo from "./card/study/AI/yolo_card";
+import Optimizer from "./card/study/AI/optimizer_card";
+
+import WebPro from "./card/study/WEB/web_pro_card";
 
 function Study() {
   return (
@@ -18,7 +20,7 @@ function Study() {
       <br />
       <h1>Web</h1>
       <div className="con_card">
-        <ReinCard />
+        <WebPro />
       </div>
       <br />
       <br />

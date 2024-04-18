@@ -7,10 +7,11 @@ import Main from "./pages/main";
 import Study from "./pages/study";
 import Project from "./pages/project";
 // study
-import Reinforce from "./pages/study/reinforce/reinforcement";
-import Yolov8 from "./pages/study/yolov8/yolo";
+import Reinforce from "./pages/study/AI/reinforce/reinforcement";
+import Yolov8 from "./pages/study/AI/yolov8/yolo";
 // project
 import Gram9 from "./pages/project/gram9";
+import WebPro from "./pages/study/WEB/back/webPro";
 
 function App() {
   return (
@@ -24,8 +25,11 @@ function App() {
           <Route path="/project" element={<Project />} />
 
           {/* study */}
-          <Route path="/study/강화학습" element={<Reinforce />} />
+          {/* ai */}
+          <Route path="/study/심층강화학습" element={<Reinforce />} />
           <Route path="/study/yolov8" element={<Yolov8 />} />
+          {/* web */}
+          <Route path="/study/web_protocal" element={<WebPro />} />
 
           {/* project */}
           <Route path="/project/9gram" element={<Gram9 />} />

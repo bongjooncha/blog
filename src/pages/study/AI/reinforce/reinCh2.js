@@ -1,13 +1,5 @@
 import { React } from "react";
 
-import Pic1_1 from "../../../img/study/rein/ch1/1_1.png";
-import Pic1_2 from "../../../img/study/rein/ch1/1_2.png";
-import Pic1_3 from "../../../img/study/rein/ch1/1_3.png";
-import Pic1_4 from "../../../img/study/rein/ch1/1_4.png";
-import Pic1_5 from "../../../img/study/rein/ch1/1_5.png";
-import Pic1_6 from "../../../img/study/rein/ch1/1_6.png";
-import Pic1_7 from "../../../img/study/rein/ch1/1_7.png";
-
 function ReinforceCh2() {
   return (
     <>

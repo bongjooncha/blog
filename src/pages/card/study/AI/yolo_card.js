@@ -4,17 +4,17 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
 // 이미지
-import rein_book from "../../../img/study/rein/rein_book.png";
+import yolov8 from "../../../../img/study/yolo/yolov8.JPG";
 
-function Rein_Card() {
+function Yolo() {
   return (
     <>
       <Card>
-        <Card.Img variant="top" src={rein_book} />
+        <Card.Img variant="top" src={yolov8} style={{ width: "18em" }} />
         <Card.Body>
-          <Card.Title>심층강화학습</Card.Title>
-          <Card.Text>책 심층강화학습을 정리한 글</Card.Text>
-          <Link to="/study/강화학습">
+          <Card.Title>Yolo v8</Card.Title>
+          <Card.Text>Yolo v8의 파라미터를 정리한 글</Card.Text>
+          <Link to="/study/yolov8">
             <Button variant="primary">글 읽기</Button>
           </Link>
         </Card.Body>
@@ -23,4 +23,4 @@ function Rein_Card() {
   );
 }
 
-export default Rein_Card;
+export default Yolo;
