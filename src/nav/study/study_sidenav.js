@@ -62,7 +62,9 @@ function StudySidenav() {
                 <div className="title title4">
                   <a href="#ch2">Ch2. 마르코프 결정 프로세스</a>
                 </div>
-                <div className="title title4">Ch3. 동적 프로그래밍</div>
+                <div className="title title4">
+                  <a href="#ch3">Ch3. 동적 프로그래밍</a>
+                </div>
                 <div className="title title4">Ch4</div>
               </div>
             </Collapse>
