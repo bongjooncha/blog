@@ -1,8 +1,8 @@
 import { React } from "react";
-import Gram9Card from "./card/project/gram9_card";
-import SFCard from "./card/project/sf_card";
-import CoinAuto from "./card/project/coin_auto_card";
-import Asset from "./card/project/asset_card";
+import Gram9Card from "./card/project/Gram9Card";
+import SFCard from "./card/project/SfCard";
+import CoinAuto from "./card/project/CoinAutoCard";
+import Asset from "./card/project/AssetCard";
 
 function Project() {
   return (

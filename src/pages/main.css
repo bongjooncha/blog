@@ -15,6 +15,11 @@
   margin: 5vh 0;
 }
 
+.main_home h2 {
+  margin: 3vh 1vw;
+  font-style: italic;
+}
+
 .main_home .con_card {
   display: flex;
   width: 100%;
@@ -112,4 +117,14 @@ h1 {
 .contents table {
   text-align: center;
   width: 90%;
+}
+
+.contents .pic_div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.contents .pic_div a img {
+  width: 65% !important;
 }

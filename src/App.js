@@ -9,6 +9,7 @@ import Project from "./pages/project";
 // study
 import Reinforce from "./pages/study/AI/reinforce/reinforcement";
 import Yolov8 from "./pages/study/AI/yolov8/yolo";
+import Optimizer from "./pages/study/AI/optimizer/optimizer";
 // project
 import Gram9 from "./pages/project/gram9";
 import WebPro from "./pages/study/WEB/back/webPro";
@@ -28,6 +29,7 @@ function App() {
           {/* ai */}
           <Route path="/study/심층강화학습" element={<Reinforce />} />
           <Route path="/study/yolov8" element={<Yolov8 />} />
+          <Route path="/study/optimizer" element={<Optimizer />} />
           {/* web */}
           <Route path="/study/web_protocal" element={<WebPro />} />
 

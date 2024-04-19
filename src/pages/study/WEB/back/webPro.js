@@ -1,5 +1,5 @@
 import { React } from "react";
-import StudySidenav from "../../../../nav/study/study_sidenav";
+import StudySidenav from "../../../../nav/study/StudySideNav";
 
 function WebPro() {
   return (

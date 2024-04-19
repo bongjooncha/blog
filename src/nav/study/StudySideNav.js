@@ -2,6 +2,10 @@ import { React, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Collapse from "react-bootstrap/Collapse";
 
+import DeepSide from "./AI/DeepSide";
+import CompVisionSide from "./AI/ComVisionSide";
+import SimReinSide from "./AI/SimReinSide";
+
 import "../nav.css";
 
 function StudySidenav() {
@@ -18,12 +22,6 @@ function StudySidenav() {
     });
   }, []);
 
-  // yolo
-  const [yoloOpen, setYoloOpen] = useState(false);
-
-  // 심층강화
-  const [simReinOpen, setSimReinOpen] = useState(false);
-
   // 웹 통신
   const [webProOpen, setWebProOpen] = useState(false);
 
@@ -34,46 +32,11 @@ function StudySidenav() {
       <div className="title">
         <div className="title1">인공지능</div>
         <br />
-        {/* 컴퓨터 비젼 */}
-        <div className="title">
-          <div className="title2">컴퓨터 비젼</div>
-          <br />
-          <div className="title title3">
-            <Link to={"../study/yolov8"}>Yolo v8</Link>
-            <button onClick={() => setSimReinOpen(!simReinOpen)}>⬇</button>
-            <Collapse in={simReinOpen}>
-              <div>
-                <div className="title title4">
-                  <a href="#param">Yolo param</a>
-                </div>
-              </div>
-            </Collapse>
-          </div>
-        </div>
+        <DeepSide />
         <br />
-        {/* 강화학습 */}
-        <div className="title">
-          <div className="title2">강화 학습</div>
-          <br />
-          <div className="title title3">
-            <Link to={"../study/심층강화학습"}>심층강화학습</Link>
-            <button onClick={() => setYoloOpen(!yoloOpen)}>⬇</button>
-            <Collapse in={yoloOpen}>
-              <div>
-                <div className="title title4">
-                  <a href="#ch1">Ch1.강화학습 개요</a>
-                </div>
-                <div className="title title4">
-                  <a href="#ch2">Ch2. 마르코프 결정 프로세스</a>
-                </div>
-                <div className="title title4">
-                  <a href="#ch3">Ch3. 동적 프로그래밍</a>
-                </div>
-                <div className="title title4">Ch4</div>
-              </div>
-            </Collapse>
-          </div>
-        </div>
+        <CompVisionSide />
+        <br />
+        <SimReinSide />
       </div>
       <br />
       <br />

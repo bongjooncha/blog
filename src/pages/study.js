@@ -1,33 +1,33 @@
 import { React } from "react";
 
-import ReinCard from "./card/study/AI/reinforce_card";
-import Yolo from "./card/study/AI/yolo_card";
-import Optimizer from "./card/study/AI/optimizer_card";
+import ReinCardCard from "./card/study/AI/ReinforceCard";
+import YoloCard from "./card/study/AI/YoloCard";
+import OptimizerCard from "./card/study/AI/OptimizerCard";
 
-import WebPro from "./card/study/WEB/web_pro_card";
+import WebProCard from "./card/study/WEB/WebProtCard";
 
 function Study() {
   return (
     <div className="main_home">
-      <h1>AI</h1>
+      <h2>AI</h2>
       <div className="con_card">
-        <ReinCard />
-        <Yolo />
-        <Optimizer />
+        <ReinCardCard />
+        <YoloCard />
+        <OptimizerCard />
       </div>
       <br />
       <br />
       <br />
-      <h1>Web</h1>
+      <h2>Web</h2>
       <div className="con_card">
-        <WebPro />
+        <WebProCard />
       </div>
       <br />
       <br />
       <br />
       <h1>아두이노/라즈베리파이</h1>
       <div className="con_card">
-        <ReinCard />
+        <ReinCardCard />
       </div>
     </div>
   );

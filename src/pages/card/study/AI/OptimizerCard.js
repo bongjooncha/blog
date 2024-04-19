@@ -4,9 +4,9 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
 // 이미지
-import optimizer from "../../../../img/study/optimizer/optimizer.png";
+import optimizer from "../../../../img/study/optimizer/optimizer_pic.gif";
 
-function Optimizer() {
+function OptimizerCard() {
   return (
     <>
       <Card>
@@ -25,4 +25,4 @@ function Optimizer() {
   );
 }
 
-export default Optimizer;
+export default OptimizerCard;
