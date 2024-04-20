@@ -4,14 +4,15 @@ import StudySidenav from "../../../../nav/study/StudySideNav";
 import Optimizer_pic from "../../../../img/study/optimizer/optimizer_pic.gif";
 import gmlm_pic from "../../../../img/study/optimizer/gmlm_pic.png";
 import opti_type_pic from "../../../../img/study/optimizer/opti_type.png";
+import minimum_pic from "../../../../img/study/optimizer/minimum.gif";
 
 function Optimizer() {
   return (
     <>
       <StudySidenav />
       <div className="main_con">
+        <h1>Optimizer</h1>
         <div className="contents">
-          <h1>Optimizer</h1>
           <br />
           <p>
             &emsp;&emsp;Optimizer은 optimization(최적화)을 하는 것이라고 볼 수
@@ -55,6 +56,10 @@ function Optimizer() {
               </a>
             </div>
             <br />
+            <br />
+          </p>
+          <br />
+          <p>
             <h2 id="gd">GD(Gradient Descent)</h2>
             &emsp;&emsp;경사 하강법(Gradient Descent)은 Optimizer중 가장 먼저
             등장한 최적화 방법으로 19세기 중반에 등장했다고 한다. 경사 하강법은
@@ -70,8 +75,25 @@ function Optimizer() {
             경우에도 GM(Global minimum)으로 판단할 수 있다. 또한 최고점일
             경우에도 기울기가 0이 될 수 있기 때문에 saddling point(안장점)을
             결과값으로 도출하는 불상사가 발생할 수 있다.
+            <br />
+            <br />
+            <div className="pic_div">
+              <a href="https://hackernoon.com/life-is-gradient-descent-880c60ac1be8">
+                <img src={minimum_pic} alt="ReinforceCh1ment Learning" /> <br />
+                https://hackernoon.com/life-is-gradient-descent-880c60ac1be8
+              </a>
+            </div>
+            <br />
+            <h2 id="bgd">BGD(Batch Gradient Descent)</h2>
+            &emsp;&emsp;GD와 BGD는 동일하다고 볼 수 있다. 수학적으로 보았을 때,
+            BGD는 행렬을 통해서 한번에 graident를 구하고 GD는 일일이 값을 구하는
+            것에서 차이가 있다고 말할 수도 있을 것 같은데, 결국 결과 값이
+            동일하기 때문에 동일한 방법이라고 보는 것이 맞을 것 같다.
+            <br />
+            <br />
+            &emsp;&emsp;코드를 통해서 BGD를 확인해 보자.
+            <br />
           </p>
-          <br />
         </div>
       </div>
       <br />
