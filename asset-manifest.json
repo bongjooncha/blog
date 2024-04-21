@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.15d49ed4.css",
-    "main.js": "/blog/static/js/main.0d98120f.js",
+    "main.css": "/blog/static/css/main.8968b395.css",
+    "main.js": "/blog/static/js/main.ef4aa562.js",
     "static/js/453.80efc53e.chunk.js": "/blog/static/js/453.80efc53e.chunk.js",
     "static/media/optimizer_pic.gif": "/blog/static/media/optimizer_pic.e0cdc445758e6f842682.gif",
     "static/media/opti_type.png": "/blog/static/media/opti_type.453c401c16b71c00ffca.png",
@@ -12,6 +12,7 @@
     "static/media/1_1.png": "/blog/static/media/1_1.a955ecdd46fb0960a2e4.png",
     "static/media/1_4.png": "/blog/static/media/1_4.d666828240ba4c2f1725.png",
     "static/media/coin.png": "/blog/static/media/coin.72a7497f230a0926cf51.png",
+    "static/media/minimum.gif": "/blog/static/media/minimum.afb39f003e31d4bd1a75.gif",
     "static/media/github.png": "/blog/static/media/github.c65c227ac2a150647b5d.png",
     "static/media/asset.png": "/blog/static/media/asset.01f26add48562eedd1fc.png",
     "static/media/yolov8.JPG": "/blog/static/media/yolov8.c21e861b74609a8a4513.JPG",
@@ -22,12 +23,12 @@
     "static/media/9gram.JPG": "/blog/static/media/9gram.b2d6834e25bdfbf87ee8.JPG",
     "static/media/1_3.png": "/blog/static/media/1_3.3c4abed19e42fada891a.png",
     "index.html": "/blog/index.html",
-    "main.15d49ed4.css.map": "/blog/static/css/main.15d49ed4.css.map",
-    "main.0d98120f.js.map": "/blog/static/js/main.0d98120f.js.map",
+    "main.8968b395.css.map": "/blog/static/css/main.8968b395.css.map",
+    "main.ef4aa562.js.map": "/blog/static/js/main.ef4aa562.js.map",
     "453.80efc53e.chunk.js.map": "/blog/static/js/453.80efc53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15d49ed4.css",
-    "static/js/main.0d98120f.js"
+    "static/css/main.8968b395.css",
+    "static/js/main.ef4aa562.js"
   ]
 }
