@@ -1,4 +1,11 @@
 import { React } from "react";
+import { IpynbRenderer } from "react-ipynb-renderer";
+
+// Jupyter theme
+import "react-ipynb-renderer/dist/styles/monokai.css";
+// import ipynb file as json
+import BGD from "./BGD.json";
+
 import StudySidenav from "../../../../nav/study/StudySideNav";
 
 import Optimizer_pic from "../../../../img/study/optimizer/optimizer_pic.gif";
@@ -93,6 +100,11 @@ function Optimizer() {
             <br />
             &emsp;&emsp;코드를 통해서 BGD를 확인해 보자.
             <br />
+            <IpynbRenderer
+              ipynb={BGD}
+              syntaxTheme={"twilight"}
+              jupyterTheme={"dorkula"}
+            />
           </p>
         </div>
       </div>
