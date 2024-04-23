@@ -1,5 +1,6 @@
 import { React } from "react";
 import { IpynbRenderer } from "react-ipynb-renderer";
+import "../../../main.css";
 
 // Jupyter theme
 import "react-ipynb-renderer/dist/styles/monokai.css";
@@ -66,8 +67,9 @@ function Optimizer() {
             <br />
           </p>
           <br />
+
+          <h2 id="gd">GD(Gradient Descent)</h2>
           <p>
-            <h2 id="gd">GD(Gradient Descent)</h2>
             &emsp;&emsp;경사 하강법(Gradient Descent)은 Optimizer중 가장 먼저
             등장한 최적화 방법으로 19세기 중반에 등장했다고 한다. 경사 하강법은
             말 그대로 경사를 타고 내려가며 최소값을 찾는 방식이다. 이때 얼만큼
@@ -105,6 +107,62 @@ function Optimizer() {
               syntaxTheme={"twilight"}
               jupyterTheme={"dorkula"}
             />
+          </p>
+          <h2 id="gd">GD(Gradient Descent)</h2>
+          <p>
+            &emsp;&emsp;경사 하강법(Gradient Descent)은 Optimizer중 가장 먼저
+            등장한 최적화 방법으로 19세기 중반에 등장했다고 한다. 경사 하강법은
+            말 그대로 경사를 타고 내려가며 최소값을 찾는 방식이다. 이때 얼만큼
+            내려 갈지를 결정하는 것이 바로 경사 하강 법이다. 이는 향후 나올
+            optimizer의 시초라고 볼 수 있다.
+            <br />
+            <br />
+            &emsp;&emsp;최적화 할 함수 f(x)에 대해서 현재 지점인 θt​ 가
+            주어졌을때 다음 이동할 점인 θt+1 을 xi와 xi에서의 기울기 그리고
+            매개변수 α 에 의해서 결정하는 것이다. 위에 그림을 보면 경사하강법은
+            경사가 0이 되는 경우 멈추기때문에 만일 LM(local minimum)을 만났을
+            경우에도 GM(Global minimum)으로 판단할 수 있다. 또한 최고점일
+            경우에도 기울기가 0이 될 수 있기 때문에 saddling point(안장점)을
+            결과값으로 도출하는 불상사가 발생할 수 있다.
+            <br />
+            <br />
+            <div className="pic_div">
+              <a href="https://hackernoon.com/life-is-gradient-descent-880c60ac1be8">
+                <img src={minimum_pic} alt="ReinforceCh1ment Learning" /> <br />
+                https://hackernoon.com/life-is-gradient-descent-880c60ac1be8
+              </a>
+            </div>
+            <br />
+            <h2 id="sgd">SGD(Stochastic Gradient Descent)</h2>
+            &emsp;&emsp;SGD는 BGD와 같이 GD로부터 파생된 개념이지만 BGD와는
+            당연히 다르다. Stochastic은 확률이라는 뜻을 가지고 있으며,
+            stochastic이 붙은 이유는 랜덤하게 데이터를 묶어 미니배치를 생성한 뒤
+            이 미니배치의 Graident를 추정하고 가중치를 업그래이드 하기 때문이다.
+            미니배치는 1개의 샘플이 될수도 있고 다수의 샘플의 집합이 될 수도
+            있다. 이렇기 때문에 모델은 다양성을 가지게 되고 LM(local minimum)에
+            빠지지 않고 GM(global minimum)에 빠르게 접근 할 수 있게 된다.
+            <br />
+            <br />
+            &emsp;&emsp;SGD는 1epoch(1회의 학습)마다 랜덤하게 선택된 미니배치를
+            가지고 가중치를 계산하게 된다. 따라서 계산속도가 빨라진다. 그리고
+            매번 랜덤하게 샘플을 선정하기에 데이터의 불균형이 있는 경우 더 좋은
+            성능을 이끌어 낼 수도 있다.
+            <br />
+            <br />
+            <strong className="strongstrong">
+              θt+1 = θt −α∇J(θt,i) 위 GD와 다르게 Gradient는 미니배치의
+              손실함수의 Gradient이다.
+            </strong>
+            <br />
+            <br />
+            &emsp;&emsp;하지만 단점으로는 매번 다른 미니 배치를 사용하기에
+            학습과정이 불안정 할 수 있다. 따라서 적은 epoch을 학습 시킬때는 좋지
+            못한 결과를 낼 수 있다. 따라서 모델을 제어하고 조절하는 매개변수인
+            하이퍼파라미터(학습률, 미니배치 크기, epoch수, 활성화 함수 등)를
+            잘못 설정할 경우 학습이 수렴하지 않고 발산 할 수 있다. 따라서 SGD는
+            대규모 데이터셋과 빠른 학습속도가 필요한 경우 유용하지만 불안정하며
+            하이퍼파라미터의 설정이 매우 중요하다. 그리고 이러한 SGD의 단점을
+            보완하기 위해서 나온 Optimizer들은 다음번에 이야기 해보겠다.
           </p>
         </div>
       </div>

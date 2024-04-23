@@ -93,6 +93,11 @@ h1 {
   font-style: italic;
 }
 
+.contents .strongstrong {
+  font-size: 28px;
+  font-style: italic;
+}
+
 .contents .red_strong {
   color: rgb(255, 112, 112);
   font-style: italic;
