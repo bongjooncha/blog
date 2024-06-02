@@ -27,11 +27,11 @@ function App() {
 
           {/* study */}
           {/* ai */}
-          <Route path="/study/심층강화학습" element={<Reinforce />} />
+          <Route path="/study/deep-rfl" element={<Reinforce />} />
           <Route path="/study/yolov8" element={<Yolov8 />} />
           <Route path="/study/optimizer" element={<Optimizer />} />
           {/* web */}
-          <Route path="/study/web_protocal" element={<WebPro />} />
+          <Route path="/study/web-protocal" element={<WebPro />} />
 
           {/* project */}
           <Route path="/project/9gram" element={<Gram9 />} />

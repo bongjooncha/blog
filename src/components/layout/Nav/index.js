@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import TopDownButton from "../TopDownButton";
 
 import "./nav.css";
 
@@ -34,21 +35,7 @@ function Headnav() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="remote_button">
-        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-          top
-        </button>
-        <button
-          onClick={() =>
-            window.scrollTo({
-              top: document.documentElement.scrollHeight,
-              behavior: "smooth",
-            })
-          }
-        >
-          bottom
-        </button>
-      </div>
+      <TopDownButton />
     </>
   );
 }
