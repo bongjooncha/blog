@@ -7,12 +7,12 @@ import "react-ipynb-renderer/dist/styles/monokai.css";
 // import ipynb file as json
 import BGD from "./BGD.json";
 
-import StudySidenav from "../../../../nav/study/StudySideNav";
+import StudySidenav from "components/layout/Nav/study/StudySideNav";
 
-import Optimizer_pic from "../../../../img/study/optimizer/optimizer_pic.gif";
-import gmlm_pic from "../../../../img/study/optimizer/gmlm_pic.png";
-import opti_type_pic from "../../../../img/study/optimizer/opti_type.png";
-import minimum_pic from "../../../../img/study/optimizer/minimum.gif";
+import Optimizer_pic from "assets/img/study/optimizer/optimizer_pic.gif";
+import gmlm_pic from "assets/img/study/optimizer/gmlm_pic.png";
+import opti_type_pic from "assets/img/study/optimizer/opti_type.png";
+import minimum_pic from "assets/img/study/optimizer/minimum.gif";
 
 function Optimizer() {
   return (

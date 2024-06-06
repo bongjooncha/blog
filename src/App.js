@@ -2,12 +2,12 @@ import "./App.css";
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
-import Headnav from "./nav/headnav";
-import Main from "./pages/main";
-import Study from "./pages/study";
-import Project from "./pages/project";
+import Headnav from "components/layout/Nav/index";
+import Main from "pages/main";
+import Study from "pages/study";
+import Project from "pages/project";
 // study
-import Reinforce from "./pages/study/AI/reinforce/reinforcement";
+// import Reinforce from "./pages/study/AI/reinforce/reinforcement";
 import Yolov8 from "./pages/study/AI/yolov8/yolo";
 import Optimizer from "./pages/study/AI/optimizer/optimizer";
 // project
@@ -27,7 +27,7 @@ function App() {
 
           {/* study */}
           {/* ai */}
-          <Route path="/study/deep-rfl" element={<Reinforce />} />
+          {/* <Route path="/study/deep-rfl" element={<Reinforce />} /> */}
           <Route path="/study/yolov8" element={<Yolov8 />} />
           <Route path="/study/optimizer" element={<Optimizer />} />
           {/* web */}

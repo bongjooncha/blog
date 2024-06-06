@@ -6,8 +6,8 @@ import TopDownButton from "../TopDownButton";
 
 import "./nav.css";
 
-import GitButton from "../img/else/github.png";
-import NaverButton from "../img/else/naver.png";
+import GitButton from "assets/img/else/github.png";
+import NaverButton from "assets/img/else/naver.png";
 
 function Headnav() {
   return (

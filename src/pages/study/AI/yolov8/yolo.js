@@ -1,5 +1,5 @@
 import { React } from "react";
-import StudySidenav from "../../../../nav/study/StudySideNav";
+import StudySidenav from "components/layout/Nav/study/StudySideNav";
 function Yolov8() {
   return (
     <>
